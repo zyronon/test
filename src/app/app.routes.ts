@@ -5,6 +5,7 @@ import {LayoutComponent} from "./layout/layout.component";
 import {AdminComponent} from "./pages/admin/admin.component";
 
 export const routes: Routes = [
+  {path: '', redirectTo: 'layout/admin', pathMatch: 'full'},
   {path: 'test', component: TestComponent},
   {
     path: 'layout', component: LayoutComponent,

@@ -1,0 +1,24 @@
+.layout {
+  height: 100%;
+  font-size: 14rem;
+  display: flex;
+  flex-direction: column;
+
+  & > header {
+    height: 60rem;
+  }
+
+  .wrapper {
+    flex: 1;
+    display: flex;
+
+    .aside {
+      width: 240rem;
+    }
+
+    & > .content {
+      flex: 1;
+      overflow: auto;
+    }
+  }
+}

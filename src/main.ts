@@ -1,5 +1,5 @@
-import { AppModule } from "./app/app.module";
-import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
+import {AppModule} from "./app/app.module";
+import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 
 //standalone模式
 // bootstrapApplication(AppComponent, appConfig)
